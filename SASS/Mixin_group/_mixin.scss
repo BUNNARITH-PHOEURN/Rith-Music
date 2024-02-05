@@ -1,0 +1,32 @@
+
+@mixin centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin spacebetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin spaceaevenly{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@mixin spacearound{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin marginLeft{
+    margin-left: 50px;
+}
+
+@mixin marginright{
+    margin-right: 50px;
+}
