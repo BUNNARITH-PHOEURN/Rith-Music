@@ -33,36 +33,13 @@ nav{
                 a{
                     color: white;
                     text-decoration: none;
-                    // text-align: center;
-                    // @include centered;
                 }
             }
-            // li:hover{
-            //     background: red;
-            //     @include centered;
-            //     height: 35px;
-            //     width: 110px;
-            //     border-radius: 2px;
+            // li:nth-child(2){
+            //     ul{
+            //         display: none;
+            //     }
             // }
-            li:nth-child(2){
-                ul{
-                    display: none;
-                }
-            }
-            li:nth-child(2):hover{
-                ul{
-                    display: block;
-                    background: greenyellow;
-                    font-size: large;
-                    margin-top:90px;
-                    width: 130px;
-                    // height: 300px;
-                    li{
-                        list-style: none;
-                        margin-top: 15px;
-                    }
-                }
-            }
         }
     }
 }
